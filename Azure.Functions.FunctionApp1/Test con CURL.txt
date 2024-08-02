@@ -1,0 +1,5 @@
+﻿curl -X GET http://localhost:7056/api/Function1 -i
+
+curl -X GET http://localhost:7056/api/Function1?name=Ana -i
+
+curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"Ana\"}" http://localhost:7056/api/Function1 -i

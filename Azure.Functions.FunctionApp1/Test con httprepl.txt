@@ -1,0 +1,6 @@
+﻿httprepl http://localhost:7056/api/
+
+get Function1
+get Function1?name=Ana
+
+post Function1 -c "{\"name\": \"Ana\"}" -h Content-Type=application/json
